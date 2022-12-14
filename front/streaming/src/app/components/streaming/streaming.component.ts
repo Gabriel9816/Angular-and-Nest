@@ -42,13 +42,13 @@ export class StreamingComponent implements OnInit {
           ? {
               title: '',
               artists: '',
-              link: '',
+              sinopse: '',
             }
           : {
               id: streaming.id,
               title: streaming.title,
               artists: streaming.artists,
-              link: streaming.link,
+              sinopse: streaming.sinopse,
             },
     });
 

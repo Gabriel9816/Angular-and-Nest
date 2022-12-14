@@ -9,5 +9,5 @@ export class Streaming {
   @Column()
   artists: string;
   @Column()
-  link: string;
+  sinopse: string;
 }

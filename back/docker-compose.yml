@@ -3,9 +3,9 @@ version: '3'
 services:
   movie_avaliate:
     image: mysql:latest
-    container_name: music_container
+    container_name: streaming_container
     environment:
-      MYSQL_DATABASE: music
+      MYSQL_DATABASE: streaming
       MYSQL_ROOT_PASSWORD: admin
     ports:
       - '9001:3306'
